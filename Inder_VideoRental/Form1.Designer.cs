@@ -95,6 +95,7 @@
             // 
             // V_Delete
             // 
+            this.V_Delete.BackColor = System.Drawing.SystemColors.Highlight;
             this.V_Delete.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.V_Delete.ForeColor = System.Drawing.Color.Black;
             this.V_Delete.Location = new System.Drawing.Point(196, 325);
@@ -102,11 +103,12 @@
             this.V_Delete.Size = new System.Drawing.Size(85, 32);
             this.V_Delete.TabIndex = 81;
             this.V_Delete.Text = "Delete";
-            this.V_Delete.UseVisualStyleBackColor = true;
+            this.V_Delete.UseVisualStyleBackColor = false;
             this.V_Delete.Click += new System.EventHandler(this.V_Delete_Click);
             // 
             // V_Update
             // 
+            this.V_Update.BackColor = System.Drawing.SystemColors.Highlight;
             this.V_Update.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.V_Update.ForeColor = System.Drawing.Color.Black;
             this.V_Update.Location = new System.Drawing.Point(105, 325);
@@ -114,11 +116,12 @@
             this.V_Update.Size = new System.Drawing.Size(85, 32);
             this.V_Update.TabIndex = 80;
             this.V_Update.Text = "Update";
-            this.V_Update.UseVisualStyleBackColor = true;
+            this.V_Update.UseVisualStyleBackColor = false;
             this.V_Update.Click += new System.EventHandler(this.V_Update_Click);
             // 
             // V_Add
             // 
+            this.V_Add.BackColor = System.Drawing.SystemColors.Highlight;
             this.V_Add.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.V_Add.ForeColor = System.Drawing.Color.Black;
             this.V_Add.Location = new System.Drawing.Point(14, 325);
@@ -126,7 +129,7 @@
             this.V_Add.Size = new System.Drawing.Size(85, 32);
             this.V_Add.TabIndex = 79;
             this.V_Add.Text = "Add";
-            this.V_Add.UseVisualStyleBackColor = true;
+            this.V_Add.UseVisualStyleBackColor = false;
             this.V_Add.Click += new System.EventHandler(this.V_Add_Click);
             // 
             // V_Genre
@@ -256,9 +259,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(31, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 24);
+            this.label2.Size = new System.Drawing.Size(94, 24);
             this.label2.TabIndex = 66;
-            this.label2.Text = "Ratting";
+            this.label2.Text = "Rate this";
             // 
             // label16
             // 
@@ -278,7 +281,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(401, 9);
+            this.label1.Location = new System.Drawing.Point(435, 269);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 24);
             this.label1.TabIndex = 94;
@@ -286,44 +289,47 @@
             // 
             // C_Delete
             // 
+            this.C_Delete.BackColor = System.Drawing.SystemColors.Highlight;
             this.C_Delete.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C_Delete.ForeColor = System.Drawing.Color.Black;
-            this.C_Delete.Location = new System.Drawing.Point(356, 195);
+            this.C_Delete.Location = new System.Drawing.Point(366, 511);
             this.C_Delete.Name = "C_Delete";
             this.C_Delete.Size = new System.Drawing.Size(274, 37);
             this.C_Delete.TabIndex = 93;
             this.C_Delete.Text = "Delete";
-            this.C_Delete.UseVisualStyleBackColor = true;
+            this.C_Delete.UseVisualStyleBackColor = false;
             this.C_Delete.Click += new System.EventHandler(this.C_Delete_Click);
             // 
             // C_Update
             // 
+            this.C_Update.BackColor = System.Drawing.SystemColors.Highlight;
             this.C_Update.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C_Update.ForeColor = System.Drawing.Color.Black;
-            this.C_Update.Location = new System.Drawing.Point(476, 157);
+            this.C_Update.Location = new System.Drawing.Point(514, 471);
             this.C_Update.Name = "C_Update";
             this.C_Update.Size = new System.Drawing.Size(154, 32);
             this.C_Update.TabIndex = 92;
             this.C_Update.Text = "Update";
-            this.C_Update.UseVisualStyleBackColor = true;
+            this.C_Update.UseVisualStyleBackColor = false;
             this.C_Update.Click += new System.EventHandler(this.C_Update_Click);
             // 
             // C_Add
             // 
+            this.C_Add.BackColor = System.Drawing.SystemColors.Highlight;
             this.C_Add.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C_Add.ForeColor = System.Drawing.Color.Black;
-            this.C_Add.Location = new System.Drawing.Point(354, 157);
+            this.C_Add.Location = new System.Drawing.Point(366, 471);
             this.C_Add.Name = "C_Add";
             this.C_Add.Size = new System.Drawing.Size(101, 32);
             this.C_Add.TabIndex = 89;
             this.C_Add.Text = "Add";
-            this.C_Add.UseVisualStyleBackColor = true;
+            this.C_Add.UseVisualStyleBackColor = false;
             this.C_Add.Click += new System.EventHandler(this.C_Add_Click);
             // 
             // C_Address
             // 
             this.C_Address.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C_Address.Location = new System.Drawing.Point(476, 113);
+            this.C_Address.Location = new System.Drawing.Point(514, 413);
             this.C_Address.Name = "C_Address";
             this.C_Address.Size = new System.Drawing.Size(154, 32);
             this.C_Address.TabIndex = 91;
@@ -331,7 +337,7 @@
             // C_Mobile
             // 
             this.C_Mobile.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C_Mobile.Location = new System.Drawing.Point(476, 74);
+            this.C_Mobile.Location = new System.Drawing.Point(514, 362);
             this.C_Mobile.Name = "C_Mobile";
             this.C_Mobile.Size = new System.Drawing.Size(154, 32);
             this.C_Mobile.TabIndex = 90;
@@ -339,7 +345,7 @@
             // C_Name
             // 
             this.C_Name.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C_Name.Location = new System.Drawing.Point(476, 36);
+            this.C_Name.Location = new System.Drawing.Point(514, 305);
             this.C_Name.Name = "C_Name";
             this.C_Name.Size = new System.Drawing.Size(154, 32);
             this.C_Name.TabIndex = 87;
@@ -350,7 +356,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(350, 115);
+            this.label8.Location = new System.Drawing.Point(381, 416);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 24);
             this.label8.TabIndex = 86;
@@ -362,7 +368,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(350, 78);
+            this.label9.Location = new System.Drawing.Point(381, 374);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(108, 24);
             this.label9.TabIndex = 85;
@@ -374,7 +380,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(343, 36);
+            this.label11.Location = new System.Drawing.Point(381, 313);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(102, 24);
             this.label11.TabIndex = 83;
@@ -386,7 +392,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(709, 7);
+            this.label17.Location = new System.Drawing.Point(831, 215);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(119, 24);
             this.label17.TabIndex = 106;
@@ -395,7 +401,7 @@
             // V_UniqueID
             // 
             this.V_UniqueID.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.V_UniqueID.Location = new System.Drawing.Point(837, 71);
+            this.V_UniqueID.Location = new System.Drawing.Point(893, 302);
             this.V_UniqueID.Name = "V_UniqueID";
             this.V_UniqueID.Size = new System.Drawing.Size(154, 32);
             this.V_UniqueID.TabIndex = 105;
@@ -403,7 +409,7 @@
             // C_UniqueID
             // 
             this.C_UniqueID.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C_UniqueID.Location = new System.Drawing.Point(837, 33);
+            this.C_UniqueID.Location = new System.Drawing.Point(893, 251);
             this.C_UniqueID.Name = "C_UniqueID";
             this.C_UniqueID.Size = new System.Drawing.Size(154, 32);
             this.C_UniqueID.TabIndex = 104;
@@ -412,7 +418,7 @@
             // 
             this.V_Return.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.V_Return.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.V_Return.Location = new System.Drawing.Point(837, 152);
+            this.V_Return.Location = new System.Drawing.Point(893, 413);
             this.V_Return.Name = "V_Return";
             this.V_Return.Size = new System.Drawing.Size(154, 32);
             this.V_Return.TabIndex = 103;
@@ -421,45 +427,48 @@
             // 
             this.V_Issue.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.V_Issue.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.V_Issue.Location = new System.Drawing.Point(837, 109);
+            this.V_Issue.Location = new System.Drawing.Point(893, 359);
             this.V_Issue.Name = "V_Issue";
             this.V_Issue.Size = new System.Drawing.Size(154, 32);
             this.V_Issue.TabIndex = 102;
             // 
             // R_Delete
             // 
+            this.R_Delete.BackColor = System.Drawing.SystemColors.Highlight;
             this.R_Delete.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R_Delete.ForeColor = System.Drawing.Color.Black;
-            this.R_Delete.Location = new System.Drawing.Point(715, 237);
+            this.R_Delete.Location = new System.Drawing.Point(742, 502);
             this.R_Delete.Name = "R_Delete";
             this.R_Delete.Size = new System.Drawing.Size(274, 37);
             this.R_Delete.TabIndex = 101;
             this.R_Delete.Text = "Delete";
-            this.R_Delete.UseVisualStyleBackColor = true;
+            this.R_Delete.UseVisualStyleBackColor = false;
             this.R_Delete.Click += new System.EventHandler(this.R_Delete_Click);
             // 
             // R_Return
             // 
+            this.R_Return.BackColor = System.Drawing.SystemColors.Highlight;
             this.R_Return.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R_Return.ForeColor = System.Drawing.Color.Black;
-            this.R_Return.Location = new System.Drawing.Point(835, 199);
+            this.R_Return.Location = new System.Drawing.Point(893, 464);
             this.R_Return.Name = "R_Return";
             this.R_Return.Size = new System.Drawing.Size(154, 32);
             this.R_Return.TabIndex = 100;
             this.R_Return.Text = "Return";
-            this.R_Return.UseVisualStyleBackColor = true;
+            this.R_Return.UseVisualStyleBackColor = false;
             this.R_Return.Click += new System.EventHandler(this.R_Return_Click);
             // 
             // R_Issue
             // 
+            this.R_Issue.BackColor = System.Drawing.SystemColors.Highlight;
             this.R_Issue.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R_Issue.ForeColor = System.Drawing.Color.Black;
-            this.R_Issue.Location = new System.Drawing.Point(713, 199);
+            this.R_Issue.Location = new System.Drawing.Point(727, 464);
             this.R_Issue.Name = "R_Issue";
             this.R_Issue.Size = new System.Drawing.Size(101, 32);
             this.R_Issue.TabIndex = 99;
             this.R_Issue.Text = "Issue";
-            this.R_Issue.UseVisualStyleBackColor = true;
+            this.R_Issue.UseVisualStyleBackColor = false;
             this.R_Issue.Click += new System.EventHandler(this.R_Issue_Click);
             // 
             // label12
@@ -468,7 +477,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(675, 155);
+            this.label12.Location = new System.Drawing.Point(723, 410);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(153, 24);
             this.label12.TabIndex = 98;
@@ -480,7 +489,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(673, 117);
+            this.label13.Location = new System.Drawing.Point(723, 359);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(136, 24);
             this.label13.TabIndex = 97;
@@ -492,7 +501,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(673, 74);
+            this.label14.Location = new System.Drawing.Point(723, 305);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(94, 24);
             this.label14.TabIndex = 96;
@@ -504,7 +513,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(675, 36);
+            this.label15.Location = new System.Drawing.Point(723, 254);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(127, 24);
             this.label15.TabIndex = 95;
@@ -515,9 +524,9 @@
             this.Database.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Database.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Database.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Database.Location = new System.Drawing.Point(354, 313);
+            this.Database.Location = new System.Drawing.Point(314, 9);
             this.Database.Name = "Database";
-            this.Database.Size = new System.Drawing.Size(693, 315);
+            this.Database.Size = new System.Drawing.Size(651, 182);
             this.Database.TabIndex = 107;
             this.Database.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Database_CellClick);
             // 
@@ -538,6 +547,7 @@
             // 
             // TopRattingCustomer
             // 
+            this.TopRattingCustomer.BackColor = System.Drawing.Color.Turquoise;
             this.TopRattingCustomer.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TopRattingCustomer.ForeColor = System.Drawing.Color.Black;
             this.TopRattingCustomer.Location = new System.Drawing.Point(6, 180);
@@ -545,11 +555,12 @@
             this.TopRattingCustomer.Size = new System.Drawing.Size(255, 28);
             this.TopRattingCustomer.TabIndex = 113;
             this.TopRattingCustomer.Text = "Top Ranking Customer";
-            this.TopRattingCustomer.UseVisualStyleBackColor = true;
+            this.TopRattingCustomer.UseVisualStyleBackColor = false;
             this.TopRattingCustomer.Click += new System.EventHandler(this.TopRattingCustomer_Click);
             // 
             // TopViewed
             // 
+            this.TopViewed.BackColor = System.Drawing.Color.Turquoise;
             this.TopViewed.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TopViewed.ForeColor = System.Drawing.Color.Black;
             this.TopViewed.Location = new System.Drawing.Point(6, 141);
@@ -557,11 +568,12 @@
             this.TopViewed.Size = new System.Drawing.Size(255, 28);
             this.TopViewed.TabIndex = 112;
             this.TopViewed.Text = "Top Viewed Movie";
-            this.TopViewed.UseVisualStyleBackColor = true;
+            this.TopViewed.UseVisualStyleBackColor = false;
             this.TopViewed.Click += new System.EventHandler(this.TopViewed_Click);
             // 
             // RentalVideos
             // 
+            this.RentalVideos.BackColor = System.Drawing.Color.Turquoise;
             this.RentalVideos.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RentalVideos.ForeColor = System.Drawing.Color.Black;
             this.RentalVideos.Location = new System.Drawing.Point(6, 101);
@@ -569,11 +581,12 @@
             this.RentalVideos.Size = new System.Drawing.Size(255, 28);
             this.RentalVideos.TabIndex = 111;
             this.RentalVideos.Text = "Rental Record";
-            this.RentalVideos.UseVisualStyleBackColor = true;
+            this.RentalVideos.UseVisualStyleBackColor = false;
             this.RentalVideos.Click += new System.EventHandler(this.RentalVideos_Click);
             // 
             // CustomerDetails
             // 
+            this.CustomerDetails.BackColor = System.Drawing.Color.Turquoise;
             this.CustomerDetails.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerDetails.ForeColor = System.Drawing.Color.Black;
             this.CustomerDetails.Location = new System.Drawing.Point(6, 62);
@@ -581,11 +594,12 @@
             this.CustomerDetails.Size = new System.Drawing.Size(255, 28);
             this.CustomerDetails.TabIndex = 110;
             this.CustomerDetails.Text = " Customer Record";
-            this.CustomerDetails.UseVisualStyleBackColor = true;
+            this.CustomerDetails.UseVisualStyleBackColor = false;
             this.CustomerDetails.Click += new System.EventHandler(this.CustomerDetails_Click);
             // 
             // VideoDetails
             // 
+            this.VideoDetails.BackColor = System.Drawing.Color.MediumAquamarine;
             this.VideoDetails.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VideoDetails.ForeColor = System.Drawing.Color.Black;
             this.VideoDetails.Location = new System.Drawing.Point(6, 19);
@@ -593,13 +607,13 @@
             this.VideoDetails.Size = new System.Drawing.Size(255, 28);
             this.VideoDetails.TabIndex = 109;
             this.VideoDetails.Text = "Get the Video Record";
-            this.VideoDetails.UseVisualStyleBackColor = true;
+            this.VideoDetails.UseVisualStyleBackColor = false;
             this.VideoDetails.Click += new System.EventHandler(this.VideoDetails_Click);
             // 
             // R_UniqueId
             // 
             this.R_UniqueId.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R_UniqueId.Location = new System.Drawing.Point(537, 239);
+            this.R_UniqueId.Location = new System.Drawing.Point(556, 596);
             this.R_UniqueId.Name = "R_UniqueId";
             this.R_UniqueId.Size = new System.Drawing.Size(154, 32);
             this.R_UniqueId.TabIndex = 109;
@@ -609,9 +623,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1059, 640);
+            this.ClientSize = new System.Drawing.Size(1059, 555);
             this.Controls.Add(this.R_UniqueId);
             this.Controls.Add(this.Setting);
             this.Controls.Add(this.Database);
